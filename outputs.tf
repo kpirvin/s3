@@ -1,4 +1,4 @@
 output "s3_bucket_name" {
-  description = "Bucket Name"
+  description = "S3 Bucket Name"
   value       = aws_s3_bucket.scalr.bucket
 }
