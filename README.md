@@ -14,6 +14,6 @@ variable "region" {
 }
 ```
 
-Now all you have to do is create a Cloud.Locations policy at the account level and assign the policy to your environment. See more here: https://scalr-athena.readthedocs-hosted.com/en/latest/catalog/variables.html#binding-to-policy
+**IMPORTANT**: Now all you have to do is create a Cloud.Locations policy at the account level and assign the policy to your environment. See more here: https://scalr-athena.readthedocs-hosted.com/en/latest/catalog/variables.html#binding-to-policy
 
 See this Terraform template here: https://github.com/scalr-eap/s3
